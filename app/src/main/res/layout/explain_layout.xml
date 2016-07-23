@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="游戏玩法：
+        在新游戏页面点击后，即可直接进入游戏。此刻，地鼠会从一个个地洞中不经意的探出一个脑袋，或者一双眼睛，企图躲过游戏者的视线。不用心软，直接敲你的手丫子，拍掌下去，力求一次一个准，来一个砸一个，来二个砸一双
+
+ 游戏建议：
+       1.全神贯注，手眼并用，左右两手分别负责各自一边会更加有效。
+       2.看到出来的不是地鼠而是更可爱的兔子，也不要心软，照样砸下去。
+       3.不仅要求速度快，而且要准，有时候因为心急，可能砸错了洞口，这样就不好啦" />
+</LinearLayout>

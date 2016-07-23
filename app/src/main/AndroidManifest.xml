@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huangkun.hi.mousegame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="笨笨打地鼠"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".atys.GameActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".atys.ExplainActivity"/>
+        <service android:name=".service.MyMusicService"/>
+    </application>
+
+</manifest>
